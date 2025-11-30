@@ -5,7 +5,7 @@ const options = {
   rule: null,
   webInterface: false,
   throttle: 10000,
-  forceProxyHttps: true,
+  forceProxyHttps: false,
   silent: false,
 };
 
@@ -20,3 +20,4 @@ proxyServer.on("error", (e) => {
 });
 
 proxyServer.start();
+
